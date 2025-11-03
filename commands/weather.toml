@@ -1,0 +1,10 @@
+# weather.toml
+prompt = """
+Fetch the current weather for city '{{city}}' using the MCP tool 'fetch_weather'.
+"""
+
+mcpTool = "fetch_weather"
+
+args = [
+  { name = "city", type = "string", description = "City name" }
+]

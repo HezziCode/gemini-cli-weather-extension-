@@ -1,0 +1,14 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "contextFileName": "GEMINI.md",
+  "commands": ["./commands/weather/weather.toml"],
+  "mcpServers": {
+    "weather": {
+      "command": "node",
+      "args": ["dist/mcp-server.js"],
+      "cwd": "${extensionPath}",
+      "stdio": "inherit"
+    }
+  }
+}
