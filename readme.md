@@ -26,7 +26,7 @@ Just type a simple command, and it’ll fetch live weather data from the Weather
 ## 🔹 Example Usage
 
 ```
-/fetch_weather Karachi
+/weather Karachi
 ```
 **Output:**
 
