@@ -10,7 +10,7 @@ gemini extensions install https://github.com/HezziCode/gemini-cli-weather-extens
 
 **After installation, restart your Gemini CLI and use:**
 ``` 
-/fetch_weather Karachi
+/weather Karachi
 ```
 
 ## ✅ Example Output:
